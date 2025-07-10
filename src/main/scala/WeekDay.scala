@@ -12,3 +12,16 @@ enum WeekDay(val label: String) extends java.lang.Enum[WeekDay]:
 
 object WeekDay:
   def hasRInName(day: WeekDay): Boolean = day.label.contains('r')
+
+/*	@main def main(): Unit = 
+		val day = WeekDay.Sat
+		day match
+			case WeekDay.Mon => ???
+			case WeekDay.Tue => ???
+			case WeekDay.Wed => ???
+			case WeekDay.Thu => ???
+			case WeekDay.Fri => ???
+			case WeekDay.Sat => ???
+			case WeekDay.Sun => ???
+		
+*/

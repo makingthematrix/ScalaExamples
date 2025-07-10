@@ -2,7 +2,7 @@ import java.nio.file.{Files, Path}
 import scala.jdk.CollectionConverters.*
 
 object SideEffectsVersion:
-  @main def main(): Unit =
+  def main(): Unit =
     val lines        = read(Protagonist.FilePath)
     val protagonists = lines.map(Protagonist.fromLine)
     val n            = askForUpdate()

@@ -16,7 +16,7 @@ object InlayHints {
     private val c = 1
   }
 
-  @main def main(): Unit = {
+  def main(): Unit = {
     val foo = Foo(1, "1")
     println(foo)
   }
