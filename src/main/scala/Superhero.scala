@@ -1,0 +1,1 @@
+case class Superhero(name: String, level: SuperpowerLevel)
