@@ -32,15 +32,14 @@ developers := List(
     url("https://github.com/makingthematrix"))
 )
 
-
 lazy val root = (project in file("."))
   .settings(
     name := "ScalaExamples",
     libraryDependencies ++= Seq(
 			"org.typelevel" %% "cats-core" % "2.13.0",
-			"org.typelevel" %% "cats-effect" % "3.6.2",
+			"org.typelevel" %% "cats-effect" % "3.6.3",
       //Test dependencies
-      "org.scalameta" %% "munit" % "1.1.1" % "test"
+      "org.scalameta" %% "munit" % "1.1.1" % Test
     ),
     scalacOptions ++= standardOptions ++ scala3Options
   )

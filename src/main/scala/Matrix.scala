@@ -8,4 +8,5 @@ extension (matrix: Matrix)
 
 def main(): Unit =
   val matrix = Matrix(3, 3)
-  //matrix.g
+  matrix
+  //
