@@ -21,7 +21,7 @@ val scala3Options = Seq(
   "-explain",
   "-Wsafe-init",
   "-Ycheck-all-patmat",
-  "-Wunused:imports"
+  "-Wunused:all",
 )
 
 developers := List(

@@ -4,7 +4,7 @@ case class Protagonist(firstName: String, lastName: String, age: Int):
   def toLine: String = s"$firstName,$lastName,$age"
 
 object Protagonist:
-  val FilePath: Path = Paths.get("src/main/resources/protagonists.csv")
+  val FilePath: Path = Paths.get("resources/protagonists.csv")
   
   def fromLine(line: String): Protagonist =
     val arr = line.split(",")

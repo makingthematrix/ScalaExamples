@@ -14,7 +14,7 @@ object FutureExample:
     Future:
       Thread.sleep(millis)
 
-  @main def main(): Unit =
+  def main(): Unit =
     val seqShort = generateASequence(5).zipWithIndex
     var sumShort: Int = 0
     val seqLong = generateASequence(15).zipWithIndex
